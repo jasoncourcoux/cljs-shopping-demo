@@ -4,7 +4,7 @@ Simple e-commerce interface to demo some features of cljs, figwheel and the deve
 
 ## License
 
-Copyright © 2016 Jason Courocux
+Copyright © 2016 Jason Courcoux
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
