@@ -12,3 +12,4 @@ pom.xml.asc
 *.iml
 /.idea
 /resources/public/cljs/out
+/resources/public/css
