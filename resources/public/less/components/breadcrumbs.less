@@ -1,0 +1,21 @@
+@breadcrumb-spacing: 10px;
+
+.section.breadcrumb-container {
+  .flex();
+
+  > * {
+    margin-right: @breadcrumb-spacing;
+
+    &.breadcrumb-separator {
+      font-weight: 700;
+      line-height: 1.2;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0;
+  }
+}
+
