@@ -3,7 +3,10 @@
             [goog.i18n.NumberFormat :as NumberFormat]
             [goog.dom :as gdom]
             [cljs.spec :as s]
-            [clojure.test.check.generators :as gen]))
+            [clojure.test.check.generators :as gen]
+            [devcards.core])
+  (:require-macros
+    [devcards.core :as dc :refer [defcard defcard-doc noframe-doc deftest dom-node]]))
 
 (enable-console-print!)
 
@@ -17,9 +20,9 @@
 
 (s/def ::description (s/and string? #(> (count %) 25)))
 
-(s/def ::price (s/int-in 0 3000))
+(s/def ::price (s/double-in :min 0.01 :max 3000))
 
-(s/def ::number-of-products (s/int-in 0 100))
+(s/def ::number-of-products (s/int-in 5 100))
 
 (s/def ::product (s/keys :req [::id
                                ::brand
@@ -70,7 +73,7 @@
         :className "breadcrumb-link"} "Home"]
    [:span.breadcrumb-seperator ">"]
    [:a {:href      "javascript:void(0);"
-        :className "breadcrumb-link"} "Categorys"]])
+        :className "breadcrumb-link"} "Categories"]])
 
 (defn product [product]
   [:div.product-container {:key (:id product)}

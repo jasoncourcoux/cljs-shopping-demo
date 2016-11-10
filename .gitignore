@@ -11,5 +11,5 @@ pom.xml.asc
 .hg/
 *.iml
 /.idea
-/resources/public/cljs/out
+/resources/public/cljs
 /resources/public/css

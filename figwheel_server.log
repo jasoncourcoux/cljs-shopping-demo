@@ -688,3 +688,222 @@ notifying browser that file changed:  out\shopping_demo\app.js
 sending changed CSS file: resources/public/css/app.css
 sending changed CSS file: resources/public/css/app.css
 sending changed CSS file: resources/public/css/app.css
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/cljs/out/app.js
+notifying browser that file changed:  resources/public/cljs/out/goog/deps.js
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 1.495 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/cljs/out/app.js" failed.
+[0mANALYSIS ERROR: No value supplied for key: {:min 0, :max 3000} at line 20 src\cljs\shopping_demo\app.cljs on file src\cljs\shopping_demo\app.cljs, line 20, column 16
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 0.695 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 1.013 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 0.914 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+[31mCompiling "resources/public/cljs/out/app.js" failed.
+[0mERROR: Invalid token: : on file C:\Users\IBM_ADMIN\developement\personal\shopping-demo\src\cljs\shopping_demo\app.cljs, line 10, column 15
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 0.649 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 0.868 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/cljs/out/app.js
+notifying browser that file changed:  resources/public/cljs/out/goog/deps.js
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 2.4 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 1.311 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 1.146 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 1.77 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 1.258 seconds.[0m
+sending changed CSS file: resources/public/css/app.css
+sending changed CSS file: resources/public/css/app.css
+sending changed CSS file: resources/public/css/app.css
+sending changed CSS file: resources/public/css/app.css
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 1.533 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app_devcards.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var shopping-demo.app/defcard at line 10 src\cljs\shopping_demo\app.cljs
+notifying browser that file changed:  resources/public/cljs/out/app_devcards.js
+notifying browser that file changed:  resources/public/cljs/devcards_out/goog/deps.js
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app_devcards.js" in 1.818 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app_devcards.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var shopping-demo.app/defcard at line 10 src\cljs\shopping_demo\app.cljs
+WARNING: Use of undeclared Var shopping-demo.app/basket at line 10 src\cljs\shopping_demo\app.cljs
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app_devcards.js" in 1.07 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app_devcards.js" from ["src/cljs"]...
+[31mCompiling "resources/public/cljs/out/app_devcards.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [] at line 1 src\cljs\shopping_demo\app.cljs
+ at clojure.core$ex_info.invokeStatic (core.clj:4725)
+    clojure.core$ex_info.invoke (core.clj:4725)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:632)
+    cljs.analyzer$error.invoke (analyzer.cljc:628)
+    cljs.analyzer$error.invokeStatic (analyzer.cljc:630)
+    cljs.analyzer$error.invoke (analyzer.cljc:628)
+    cljs.analyzer$basic_validate_ns_spec.invokeStatic (analyzer.cljc:1896)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1887)
+    cljs.analyzer$parse_require_spec.invokeStatic (analyzer.cljc:1995)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1991)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:663)
+    clojure.core$partial$fn__6855.doInvoke (core.clj:2616)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__6875.invoke (core.clj:2726)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.ChunkedCons.chunkedNext (ChunkedCons.java:59)
+    clojure.core$chunk_next.invokeStatic (core.clj:700)
+    clojure.core$reduce1.invokeStatic (core.clj:934)
+    clojure.core$reduce1.invokeStatic (core.clj:926)
+    clojure.core$merge_with.invokeStatic (core.clj:3032)
+    clojure.core$merge_with.doInvoke (core.clj:3024)
+    clojure.lang.RestFn.applyTo (RestFn.java:139)
+    clojure.core$apply.invokeStatic (core.clj:661)
+    clojure.core$apply.invoke (core.clj:652)
+    cljs.analyzer$eval3482$fn__3484$fn__3498.invoke (analyzer.cljc:2252)
+    clojure.core.protocols$fn__9137.invokeStatic (protocols.clj:167)
+    clojure.core.protocols/fn (protocols.clj:124)
+[32mSuccessfully compiled "resources/public/cljs/out/app_devcards.js" in 0.259 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app_devcards.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var shopping-demo.app/defcard at line 11 src\cljs\shopping_demo\app.cljs
+WARNING: Use of undeclared Var shopping-demo.app/basket at line 11 src\cljs\shopping_demo\app.cljs
+notifying browser that file changed:  resources/public/cljs/out/app_devcards.js
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app_devcards.js" in 1.511 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app_devcards.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app_devcards.js" in 1.172 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app_devcards.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app_devcards.js" in 1.483 seconds.[0m
+[0mCompiling "resources/public/cljs/devcards_out/app_devcards.js" from ["src/cljs"]...
+[31mCompiling "resources/public/cljs/devcards_out/app_devcards.js" failed.
+[0mERROR: Unmatched delimiter ) on file C:\Users\IBM_ADMIN\developement\personal\shopping-demo\src\cljs\shopping_demo\app.cljs, line 15, column 29
+[32mSuccessfully compiled "resources/public/cljs/devcards_out/app_devcards.js" in 1.895 seconds.[0m
+[0mCompiling "resources/public/cljs/devcards_out/app_devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/cljs/devcards_out/app_devcards.js" in 1.726 seconds.[0m
+[0mCompiling "resources/public/cljs/devcards_out/app_devcards.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/cljs/devcards_out/app_devcards.js
+notifying browser that file changed:  resources/public/cljs/devcards_out/goog/deps.js
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/devcards_out/app_devcards.js" in 1.533 seconds.[0m
+[0mCompiling "resources/public/cljs/devcards_out/app_devcards.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/devcards_out/app_devcards.js" in 1.072 seconds.[0m
+[0mCompiling "resources/public/cljs/devcards_out/app_devcards.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/devcards_out/app_devcards.js" in 0.745 seconds.[0m
+[0mCompiling "resources/public/cljs/devcards_out/app_devcards.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/devcards_out/app_devcards.js" in 0.731 seconds.[0m
+[0mCompiling "resources/public/cljs/devcards_out/app_devcards.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/devcards_out/app_devcards.js" in 1.715 seconds.[0m
+[0mCompiling "resources/public/cljs/devcards_out/app_devcards.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/devcards_out/app_devcards.js" in 1.297 seconds.[0m
+[0mCompiling "resources/public/cljs/devcards_out/app_devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/cljs/devcards_out/app_devcards.js" in 3.077 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/devcards_out/app_devcards.js
+notifying browser that file changed:  resources/public/cljs/devcards_out/goog/deps.js
+notifying browser that file changed:  out\shopping_demo\app.js
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 1.404 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/out/app.js
+notifying browser that file changed:  resources/public/cljs/out/goog/deps.js
+notifying browser that file changed:  out\shopping_demo\app.js
+[0mCompiling "resources/public/cljs/out_cards/app.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/cljs/out_cards/app.js
+notifying browser that file changed:  resources/public/cljs/out_cards/goog/deps.js
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out_cards/app.js" in 1.832 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/cljs/out/app.js
+notifying browser that file changed:  resources/public/cljs/out/goog/deps.js
+notifying browser that file changed:  resources/public/cljs/out/cljs_deps.js
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 1.52 seconds.[0m
+[0mCompiling "resources/public/cljs/out_cards/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out_cards/app.js" in 2.061 seconds.[0m
+[0mCompiling "resources/public/cljs/out_cards/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out_cards/app.js" in 1.574 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 1.145 seconds.[0m
+[0mCompiling "resources/public/cljs/out_cards/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out_cards/app.js" in 1.325 seconds.[0m
+[0mCompiling "resources/public/cljs/out/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out/app.js" in 1.125 seconds.[0m
+[0mCompiling "resources/public/cljs/out_test/app.js" from ["src/cljs" "test/cljs"]...
+notifying browser that file changed:  resources/public/cljs/out_test/app.js
+notifying browser that file changed:  resources/public/cljs/out_test/goog/deps.js
+notifying browser that file changed:  out\shopping_demo\test_runner.js
+[32mSuccessfully compiled "resources/public/cljs/out_test/app.js" in 2.876 seconds.[0m
+[0mCompiling "resources/public/cljs/out_test/app.js" from ["src/cljs" "test/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app_test.js
+[32mSuccessfully compiled "resources/public/cljs/out_test/app.js" in 1.518 seconds.[0m
+[0mCompiling "resources/public/cljs/out_test/app.js" from ["src/cljs" "test/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app_test.js
+[32mSuccessfully compiled "resources/public/cljs/out_test/app.js" in 2.18 seconds.[0m
+[0mCompiling "resources/public/cljs/out_test/app.js" from ["src/cljs" "test/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app_test.js
+[32mSuccessfully compiled "resources/public/cljs/out_test/app.js" in 0.786 seconds.[0m
+[0mCompiling "resources/public/cljs/out_test/app.js" from ["src/cljs" "test/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app_test.js
+[32mSuccessfully compiled "resources/public/cljs/out_test/app.js" in 0.976 seconds.[0m
+[0mCompiling "resources/public/cljs/out_test/app.js" from ["src/cljs" "test/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out_test/app.js" in 1.246 seconds.[0m
+[0mCompiling "resources/public/cljs/out_cards/app.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/cljs/out_cards/app.js
+notifying browser that file changed:  resources/public/cljs/out_cards/goog/deps.js
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out_cards/app.js" in 1.255 seconds.[0m
+[0mCompiling "resources/public/cljs/out_test/app.js" from ["src/cljs" "test/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out_test/app.js" in 1.002 seconds.[0m
+[0mCompiling "resources/public/cljs/out_cards/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out_cards/app.js" in 0.872 seconds.[0m
+[0mCompiling "resources/public/cljs/out_test/app.js" from ["src/cljs" "test/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out_test/app.js" in 0.861 seconds.[0m
+[0mCompiling "resources/public/cljs/out_cards/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out_cards/app.js" in 1.135 seconds.[0m
+[0mCompiling "resources/public/cljs/out_cards/app.js" from ["src/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out_cards/app.js" in 1.123 seconds.[0m
+[0mCompiling "resources/public/cljs/out_test/app.js" from ["src/cljs" "test/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app.js
+[32mSuccessfully compiled "resources/public/cljs/out_test/app.js" in 1.446 seconds.[0m
+[0mCompiling "resources/public/cljs/out_cards/app.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/cljs/out_cards/app.js
+notifying browser that file changed:  out\shopping_demo\cards.js
+[32mSuccessfully compiled "resources/public/cljs/out_cards/app.js" in 1.706 seconds.[0m
+[0mCompiling "resources/public/cljs/out_test/app.js" from ["src/cljs" "test/cljs"]...
+notifying browser that file changed:  resources/public/cljs/out_test/app.js
+notifying browser that file changed:  out\shopping_demo\cards.js
+[32mSuccessfully compiled "resources/public/cljs/out_test/app.js" in 0.96 seconds.[0m
+[0mCompiling "resources/public/cljs/out_test/app.js" from ["src/cljs" "test/cljs"]...
+notifying browser that file changed:  out\shopping_demo\app_test.js
+[32mSuccessfully compiled "resources/public/cljs/out_test/app.js" in 1.067 seconds.[0m
