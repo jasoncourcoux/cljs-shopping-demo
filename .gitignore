@@ -13,3 +13,4 @@ pom.xml.asc
 /.idea
 /resources/public/cljs
 /resources/public/css
+/node_modules
